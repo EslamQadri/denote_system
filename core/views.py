@@ -39,8 +39,4 @@ def Registration_page(request):
     return render(request, 'Registration.html', {'rform': Denote_information_Form, 'ok': False})
 
 
-def Registration_ajax(request):
-    if request.method == 'POST':
-        details = Denote_information_Form(request.method)
-        if details.is_valid():
-            print("its worked ")
+
