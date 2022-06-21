@@ -1,0 +1,59 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <link rel="icon" href="http://www.scientificamerican.com/icon.png">
+    <link rel="stylesheet" href="{%static 'css/index.css'%}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+
+
+  
+    <title>Donate</title>
+</head>
+<body>
+
+    <div class="container">
+          
+       <span class="back"></span> 
+        <img  class="img1" src="{%static 'img/code1.jpg'%}">
+           <div class="list">
+           <h1>Donate</h1>
+           <ul>
+               <li><a href="#donate">home</a></li>
+            
+               <li><a id="open" href="{% url 'contact_us'%}">contact</a></li>
+               <li><a id="ger" href="{% url 'Registration'%} ">Donate</a></li>
+           </ul>
+           <img src="{%static 'img/liststyle1.png' %}">
+           
+       </div>
+       <div class="text">
+           <h2 class="h2">Donate your non-needed school books.</h2>
+           <br>
+           <p>There are many students around the world who want to learn.
+                <br>But they don't have money or savings to buy new books.
+                 <br>That's why we created this platform to help students who are not able to</p>
+       </div>
+       <div class="but1">
+       <a href="{%url 'Registration'%}">
+       <button type="button"><span class="but"></span>donate</button></a>
+       
+        <a href="{%url 'donores'%}">
+            <button type="button"><sabn class="but"></sabn>donors</button></a>
+       </div>
+    </div>
+    <div class="container3">
+
+    </div>
+    <script src="{%static 'js/manhag3.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+        <title>sign up</title>
+    </head>
+    <body>
+        {% if ok %}
+            <script >alert("تم تسجيل طلبك بنجاح");</script>
+        {% endif %}
+        <section>
+            <span class="over">
+                <img class="back2" src="{% static 'img/study.jpg' %}">
+            </span>
+            <div class="container2">
+                <div class="form">
+                    <h3>Student data registration</h3>
+                    <div class="boxs">
+                        <form method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {{ rform }}
+                            <button class="bot" type="submit" id ="registration_btn">submit</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+        <!--
+<script src="{%static 'js/ajax.js' %}"></script>
+-->
+    </html>

@@ -1,0 +1,939 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/***container****/
+
+.container {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+}
+
+
+/****end  container****/
+
+
+/******start partners*****/
+
+.partners {
+    position: absolute;
+    display: block;
+    z-index: 6;
+    background: rgba(128, 128, 128, 0.603);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .clos1 {
+    position: absolute;
+    text-align: center;
+    padding-top: 6px;
+    top: 63px;
+    height: 30px;
+    width: 30px;
+    color: red;
+    font-size: 16px;
+    background: #def;
+    cursor: pointer;
+}
+
+.partners .part {
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    background: white
+}
+
+.partners .part img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 350px;
+    width: 550px
+}
+
+
+/******end partenres*****/
+
+
+/******start about*****/
+
+.about {
+    position: absolute;
+    display: block;
+    z-index: 6;
+    background: rgba(128, 128, 128, 0.603);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .clos2 {
+    position: absolute;
+    text-align: center;
+    padding-top: 6px;
+    top: 63px;
+    height: 30px;
+    width: 30px;
+    color: red;
+    font-size: 16px;
+    background: #def;
+    cursor: pointer;
+}
+
+.about .abo {
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    background: white
+}
+
+.about .abo img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 350px;
+    width: 550px
+}
+
+
+/******end abuot******/
+
+
+/*******start contact******/
+
+.contact {
+    position: absolute;
+    display: block;
+    z-index: 6;
+    background: rgba(128, 128, 128, 0.603);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .clos {
+    position: absolute;
+    text-align: center;
+    padding-top: 6px;
+    top: 63px;
+    height: 30px;
+    width: 30px;
+    color: red;
+    font-size: 16px;
+    background: #def;
+    cursor: pointer;
+}
+
+.contact .tell {
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    background: white
+}
+
+.contact .tell img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 350px;
+    width: 550px
+}
+
+
+/******end contact*******/
+
+
+/******img in class (back)***/
+
+.back {
+    position: absolute;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    z-index: 1;
+    display: block;
+}
+
+
+/******end in class (back)***/
+
+@media (max-width: 767px) {
+    .img1 {
+        position: absolute;
+        width: 50%;
+        height: 50vh;
+        margin: auto;
+        display: none
+    }
+    .list {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        margin: auto;
+        z-index: 2;
+    }
+    .list h1 {
+        color: rgb(15, 233, 33);
+        font-family: 'Georama', sans-serif;
+        position: absolute;
+        top: 33px;
+        left: 99px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        cursor: pointer
+    }
+    .list ul {
+        position: absolute;
+        z-index: 3;
+        right: 150px;
+        top: 38px;
+    }
+    .list ul li {
+        display: inline-block;
+        margin: 0 20px;
+        list-style: none;
+        position: relative
+    }
+    .list ul li a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+
+/*****start list*****/
+
+.list {
+    position: relative;
+    height: 25px;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+}
+
+
+/****end list******/
+
+
+/*****start h1 in list****/
+
+.list h1 {
+    color: white;
+    font-family: 'Georama', sans-serif;
+    position: absolute;
+    top: 33px;
+    left: 99px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    cursor: pointer
+}
+
+
+/****end h1 in list*****/
+
+
+/****** start ( ul  li & a) in (list)****/
+
+.list ul {
+    position: absolute;
+    z-index: 3;
+    right: 150px;
+    top: 38px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+    position: relative
+}
+
+.list ul li a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.list ul li #ger {
+    color: rgb(6, 255, 6);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid green
+}
+
+.list ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(38, 0, 255);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 1s;
+}
+
+.list ul li:hover::after {
+    width: 100%
+}
+
+
+/******end ( ul  li & a ) in (list)*****/
+
+
+/*******image icone in list*****/
+
+img {
+    position: absolute;
+    right: 50px;
+    background: white;
+    height: 20px;
+    color: white;
+    display: none;
+    z-index: 2
+}
+
+
+/*******end image icone in list****/
+
+
+/*****start class (text)*****/
+
+.text {
+    position: relative;
+    bottom: -150px;
+    right: 1px;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin: auto
+}
+
+.text .h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Georama', sans-serif;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: 'Georama', sans-serif;
+}
+
+
+/******end class (text)******/
+
+
+/*****start button****/
+
+button {
+    position: relative;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 250px;
+    text-align: center;
+    padding: 12px 0;
+    z-index: 2;
+    bottom: -208px;
+    left: 352px;
+    border-radius: 38px;
+    font-size: 22px;
+    font-family: 'Georama', sans-serif;
+    text-transform: capitalize;
+    background: none;
+    border: 2px solid #3d1164;
+    color: white;
+    cursor: pointer;
+}
+
+.but1 {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    width: 650px
+}
+
+.but {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #3d1164;
+    border-radius: 25px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transition: .50s;
+}
+
+button:hover .but {
+    width: 100%
+}
+
+
+/*****end button*****/
+
+
+/*******************start page (sign in)**************************/
+
+
+/******* start Donate*******/
+
+section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(5, 101, 146);
+    width: 100%;
+    z-index: 0;
+}
+
+section .over {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75)
+}
+
+section .over .back2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transform: scale(100%);
+}
+
+.container2 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-left: 15%;
+    height: 450px;
+    width: 60%;
+    background: rgb(24, 2, 59);
+    box-shadow: 0px 10px 15px black
+}
+
+.donate {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    height: 130px;
+    width: 0;
+    background: rgb(31, 3, 68);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    transition: .50s;
+}
+
+.do {
+    position: absolute;
+    top: 50px;
+    font-size: 28px;
+    margin-left: -48px;
+    font-family: 'Georama', sans-serif;
+    color: chartreuse;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.do:focus {
+    color: blue;
+}
+
+.donate ul {
+    background: rgba(255, 255, 252, 0.596);
+    text-align: center;
+    padding: 10px 10px 5px 5px;
+    border-radius: 10px
+}
+
+.donate ul li {
+    list-style: none;
+    cursor: pointer
+}
+
+.donate ul li p {
+    color: rgb(49, 46, 46);
+    font-family: 'Georama', sans-serif;
+    font-size: 14px;
+}
+
+.paragraph {
+    position: relative;
+    display: flex;
+    height: 310px;
+    overflow: hidden;
+}
+
+h3 {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    margin-top: 15px;
+    margin-right: 25px;
+    font-weight: bold;
+    color: rgb(3, 3, 70);
+    text-transform: capitalize;
+    font-family: 'Georama', sans-serif;
+}
+
+.donate:hover {
+    width: 225px;
+}
+
+.donate:hover .container2 {
+    width: 70%
+}
+
+.paragraph p .book {
+    color: red;
+    font-weight: bold
+}
+
+.paragraph p .whats a {
+    text-decoration: none;
+    color: rgb(54, 107, 1);
+    font-size: 19px;
+}
+
+
+/*
+.paragraph p .des
+{
+    color: rgb(145, 145, 9);
+    font-weight: bold
+}
+.paragraph p .hap
+{
+    color:rgb(38, 0, 255);
+    font-weight: bold
+}*/
+
+
+/********end Donate********/
+
+
+/******start form*****/
+
+.form {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 30px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+}
+
+.form .boxs input {
+    border: none;
+    outline: none;
+    width: 250px;
+    color: rgb(63, 11, 158);
+    font-weight: bold;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.568);
+    background: none;
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer
+}
+
+.form .boxs input:focus {
+    border-bottom: 2px solid rgb(0, 135, 245)
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 135, 245, 0.521);
+}
+
+
+/*.form .boxs .box:nth-child(6)
+{
+    position: relative;
+    top: -260px;
+    right: -199px;
+   -webkit-appearance: none;
+}*/
+
+.form .boxs .box:nth-child(4)[type=number]::-webkit-inner-spin-button,
+.form .boxs .box:nth-child(4)[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none
+}
+
+.form .boxs .box:nth-child(5)[type=number]::-webkit-inner-spin-button,
+.form .boxs .box:nth-child(5)[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none
+}
+
+
+/*********start class(choose)***********/
+
+.choose {
+    position: absolute;
+    bottom: 153px;
+    right: 35px;
+    height: 35px;
+    width: 130px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.choose #default-btn[type="file"] {
+    display: none;
+}
+
+.choose #photo1 {
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: 17px;
+    background: rgb(0, 135, 245);
+}
+
+.choose #upload-photo {
+    cursor: pointer;
+    height: 35px;
+    width: 130px;
+    background: rgb(0, 135, 245);
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    text-align: center
+}
+
+
+/********end class(choose)**********/
+
+textarea {
+    position: absolute;
+    bottom: 95px;
+    left: 62px;
+    width: 555px;
+    height: 25px;
+    background: transparent;
+    color: rgb(4, 25, 43);
+    font-weight: bold;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.568)
+}
+
+textarea:focus {
+    border-bottom: 2px solid rgb(0, 135, 245)
+}
+
+
+/***********start button*************/
+
+.bot {
+    width: 570px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: rgb(0, 135, 245);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding-bottom: 35px;
+    border-radius: unset;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bot:focus {
+    background: rgb(31, 3, 68)
+}
+
+
+/*************end button**************/
+
+
+/******end form*******/
+
+
+/************************start donars ******************/
+
+.container4 {
+    display: grid;
+    justify-content: center;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: "head head head" "conten1 conten1 conten1" "conten2 conten2 conten2" "conten3 conten3 conten3" "footer footer footer";
+}
+
+.don {
+    background: rgb(32, 14, 14);
+    margin: 10px;
+    width: 1200px
+}
+
+.head {
+    grid-area: head;
+    height: 60px !important;
+    border-radius: 25px
+}
+
+.head .home2 {
+    color: white;
+    font-family: 'Georama', sans-serif;
+    margin-left: 50px;
+    margin-top: 13px;
+    font-size: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+}
+
+.head .donate2 {
+    color: rgb(4, 241, 4);
+    font-family: 'Georama', sans-serif;
+    border: 1px solid rgb(4, 241, 4);
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 8px;
+    font-size: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+.ads-bar {
+    position: absolute;
+    right: 20%;
+    top: 15px;
+    height: 50px;
+    width: 20%;
+    background: rgb(32, 14, 14);
+    overflow: hidden;
+    font-size: 25px;
+    border-radius: 15px;
+    color: rgb(255, 94, 0);
+    white-space: nowrap;
+}
+
+.ads-bar h2 {
+    text-shadow: 0px 2px 1px rgb(255, 94, 0), 0px 2px 1px rgb(255, 94, 0);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    margin-right: 0;
+    animation: text 15s infinite;
+}
+
+@keyframes text {
+    100% {
+        transform: translateX(-1300px)
+    }
+}
+
+.conten1 {
+    grid-area: conten1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 227, 230)
+}
+
+.conten1 .wellcom1 {
+    height: 180px;
+    width: 825px;
+    position: absolute;
+    top: 210px;
+    left: 271px;
+}
+
+.conten1 .wellcom1 img {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 180px;
+    width: 825px;
+}
+
+.don .wellcom {
+    height: 150px;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 12px;
+}
+
+.don .wellcom img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    top: -12px
+}
+
+.don .wellcom .data {
+    position: absolute;
+    left: 100px;
+    top: 15px
+}
+
+.don .wellcom .data h5 {
+    color: rgb(1, 1, 22);
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.conten2 {
+    grid-area: conten2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 227, 230)
+}
+
+.conten3 {
+    grid-area: conten3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 227, 230)
+}
+
+.footer {
+    grid-area: footer;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .we1 {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 200px;
+    margin-left: 80px;
+    margin-right: 80px
+}
+
+.footer .we1 h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(50, 50, 199)
+}
+
+.footer .we1 p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-family: sans-serif
+}
+
+.footer .we2 {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 200px;
+    margin-left: 80px;
+    margin-right: 80px
+}
+
+.footer .we2 h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(50, 50, 199)
+}
+
+.footer .we2 p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-family: sans-serif
+}
+
+.footer .we2 a {
+    text-decoration: none;
+    color: greenyellow
+}
+
+.footer .we2 .whats {
+    color: rgb(209, 22, 22);
+    font-weight: bold
+}
+
+.footer .we3 {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 200px;
+    margin-left: 80px;
+    margin-right: 80px
+}
+
+.footer .we3 h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(50, 50, 199)
+}
+
+.footer .we3 p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 20px
+}

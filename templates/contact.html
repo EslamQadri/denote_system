@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" class="form">
+      <h2>CONTACT US</h2>
+      {% csrf_token %}
+      {{ sform.as_p }}
+      <button type="submit">Send Message</button>
+      <a href="{% url 'home' %}"
+         style="color: black;
+                display: inline;
+                padding-top: 30px;
+                margin-top: 20px;
+                text-decoration: none;">back</a>
+      <div>
+        <span class="fa fa-phone"></span>001 1023 567
+      <span class="fa fa-envelope-o"></span> contact@company.com
+  </div>
+</form>
+</body>
+</html>
